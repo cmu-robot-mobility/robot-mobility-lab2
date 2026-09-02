@@ -1,0 +1,8 @@
+**/__pycache__/
+**/build/
+**/install/
+**/log/
+.vscode/
+
+# Instructor-only reference solutions
+solutions/
