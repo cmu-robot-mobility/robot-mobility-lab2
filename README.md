@@ -160,7 +160,7 @@ Or if you're using `docker-compose`, add this line to the `volumes` field for th
 
 **Windows users:** make sure your files have Unix style line endings. You can use `dos2unix` or set your text editor accordingly.
 
-Deliverables 1 and 2 are to be done **individually**; Deliverable 3 is done **as a team** per your respective team allocation.
+Deliverables 1, 2 and 4 are to be done **individually**; Deliverable 3 is done **as a team** per your respective team allocation.
 
 **Deliverable 1**: Update the skeleton package directory with your `safety_node` and `wall_follow` implementations, compress it in zip format and rename the zip file as lab2_\<your_andrew_id\>_\<your team number\>. Submit the renamed zip file directly to Canvas. Your code should start and run in simulation smoothly.
 
@@ -173,7 +173,7 @@ Upload your videos to YouTube (unlisted) and include the links in **`SUBMISSION.
 
 **Deliverable 3 (as a team)**: Make a recording of the run on the actual car following a wall. This can be done in the hallway outside of aims, or you can form your own track. Make sure to show at least one turn.
 
-**(optional) Deliverable 4: AEB while turning**: Extend your safety node so that it also brakes while the car is turning, and submit a screen cast demonstrating it. To do this, note that a turning vehicle also has a *lateral* velocity component at its centre of mass, so projecting only the longitudinal velocity onto each beam is no longer correct. You will need to project the **complete velocity vector** onto each beam to get the range rate.
+**(optional) Deliverable 4: AEB while turning (individual)**: Extend your safety node so that it also brakes while the car is turning, and submit a screen cast demonstrating it. To do this, note that a turning vehicle also has a *lateral* velocity component at its centre of mass, so projecting only the longitudinal velocity onto each beam is no longer correct. You will need to project the **complete velocity vector** onto each beam to get the range rate.
 
 To derive that lateral velocity, you may assume:
 
