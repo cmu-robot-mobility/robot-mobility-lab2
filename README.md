@@ -7,7 +7,7 @@ This lab has two parts, done in the same workspace:
 | **2a** | `safety_node` | Automatic Emergency Braking (AEB) via instantaneous time to collision |
 | **2b** | `wall_follow` | Wall following with a PID controller |
 
-Both parts are built and run inside the same ROS 2 workspace, `sim_ws`, which is also where the simulator is. For installing the simulator, follow the instructions in the [this repo](https://github.com/f1tenth/f1tenth_gym_ros). Your two packages should be in `sim_ws/src/` alongside `f1tenth_gym_ros`:
+Both parts are built and run inside the same ROS 2 workspace, `sim_ws`, which is also where the simulator is. For installing the simulator, follow the instructions in the [this repo](https://github.com/f1tenth-cmu/f1tenth_gym_ros). Your two packages should be in `sim_ws/src/` alongside `f1tenth_gym_ros`:
 
 ```
 sim_ws/
