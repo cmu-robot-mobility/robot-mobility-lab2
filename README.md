@@ -173,7 +173,7 @@ Upload your videos to YouTube (unlisted) and include the links in **`SUBMISSION.
 
 **Deliverable 3 (as a team)**: Make a recording of the run on the actual car following a wall. This can be done in the hallway outside of aims, or you can form your own track. Make sure to show at least one turn.
 
-**(optional) Deliverable 4: AEB while turning (individual)**: Extend your safety node so that it also brakes while the car is turning, and submit a screen cast demonstrating it. To do this, note that a turning vehicle also has a *lateral* velocity component at its centre of mass, so projecting only the longitudinal velocity onto each beam is no longer correct. You will need to project the **complete velocity vector** onto each beam to get the range rate.
+**(optional) Deliverable 4: AEB while turning (individual, in simulation)**: Extend your safety node so that it also brakes while the car is turning, and submit a screen cast from simulation, demonstrating it. To do this, note that a turning vehicle also has a *lateral* velocity component at its centre of mass, so projecting only the longitudinal velocity onto each beam is no longer correct. You will need to project the **complete velocity vector** onto each beam to get the range rate.
 
 To derive that lateral velocity, you may assume:
 
